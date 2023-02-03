@@ -1,0 +1,261 @@
+h1 {
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  padding: 5px;
+  margin: 20px;
+  color: white;
+  font-family: monospace;
+}
+
+.bar {
+  overflow: hidden;
+  text-align: center;
+}
+
+button {
+  border-radius: 100%;
+  background-image: linear-gradient(#a50000, rgb(255, 49, 49));
+  border: solid;
+  border-color: white;
+  color: white;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+
+button:hover {
+  border-radius: 100%;
+  background-image: linear-gradient(#303030, #303030);
+  border-color: rgb(173, 173, 173);
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+
+.redgradient {
+  background-image: linear-gradient(red, darkred, maroon);
+}
+
+.orangegradient {
+  background-image: linear-gradient(orange, darkorange, orangered);
+}
+
+.yellowgradient {
+  background-image: linear-gradient(yellow, gold, goldenrod);
+}
+
+.greengradient {
+  background-image: linear-gradient(chartreuse, lime, green, darkgreen);
+}
+
+.bluegradient {
+  background-image: linear-gradient(
+    lightskyblue,
+    cyan,
+    dodgerblue,
+    cornflowerblue,
+    blue
+  );
+}
+
+.purplegradient {
+  background-image: linear-gradient(
+    pink,
+    orchid,
+    magenta,
+    mediumvioletred,
+    purple
+  );
+}
+
+.whitegradient {
+  background-image: linear-gradient(linen, lightgray);
+}
+
+.blackgradient {
+  background-image: linear-gradient(#303030, black);
+}
+
+.graygradient {
+  background-image: linear-gradient(silver, gray, darkslategray);
+}
+
+.browngradient {
+  background-image: linear-gradient(sandybrown, chocolate, sienna, saddlebrown);
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes imagemove {
+  0% {
+    top: 1000px;
+    left: 350px;
+  }
+  100% {
+    top: 575px;
+    left: 350px;
+  }
+}
+
+@keyframes fiveline {
+  0% {
+    top: 1000px;
+    left: 350px;
+  }
+  100% {
+    top: 625px;
+    left: 350px;
+  }
+}
+
+.redimage {
+  position: absolute;
+  animation-name: imagemove;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  padding: 2px;
+  margin: 2px;
+}
+
+.redimage:hover {
+  filter: grayscale(100%);
+  transition-duration: 2s;
+}
+
+.orangeimage {
+  position: absolute;
+  animation-name: imagemove;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  padding: 2px;
+  margin: 2px;
+}
+
+.orangeimage:hover {
+  filter: contrast(2);
+  transition-duration: 2s;
+}
+
+.yellowimage:hover {
+  filter: brightness(170%);
+  transition-duration: 2s;
+}
+
+.yellowimage {
+  position: absolute;
+  animation-name: fiveline;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  padding: 2px;
+  margin: 2px;
+}
+
+.greenimage:hover {
+  filter: saturate(7);
+  transition-duration: 2s;
+}
+
+.greenimage {
+  position: absolute;
+  animation-name: fiveline;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  padding: 2px;
+  margin: 2px;
+}
+
+.blueimage:hover {
+  filter: blur(6000px);
+  transition-duration: 10s;
+}
+
+.blueimage {
+  position: absolute;
+  animation-name: fiveline;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  padding: 2px;
+  margin: 2px;
+}
+
+.purpleimage:hover {
+  filter: opacity(20%);
+  transition-duration: 2s;
+}
+
+.purpleimage {
+  position: absolute;
+  animation-name: fiveline;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  padding: 2px;
+  margin: 2px;
+}
+
+.whiteimage:hover {
+  filter: blur(10px);
+  filter: blur(30%);
+  transition-duration: 2s;
+}
+
+.whiteimage {
+  position: absolute;
+  animation-name: fiveline;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  padding: 2px;
+  margin: 2px;
+}
+
+.blackimage:hover {
+  filter: grayscale(100%);
+  transition-duration: 2s;
+}
+
+.blackimage {
+  position: absolute;
+  animation-name: imagemove;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  padding: 2px;
+  margin: 2px;
+}
+
+.grayimage:hover {
+  filter: grayscale(500%);
+  transition-duration: 2s;
+}
+
+.grayimage {
+  position: absolute;
+  animation-name: imagemove;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  padding: 2px;
+  margin: 2px;
+}
+
+.brownimage:hover {
+  filter: saturate(5);
+  transition-duration: 2s;
+}
+
+.brownimage {
+  position: absolute;
+  animation-name: fiveline;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  padding: 2px;
+  margin: 2px;
+}
